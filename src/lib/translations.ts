@@ -1,0 +1,40 @@
+export type Language = 'JA' | 'EN';
+
+export const translations = {
+    JA: {
+        title: 'ロジッククエスト',
+        subtitle: '親子のための論理思考スタジオ',
+        start: '冒険を始める',
+        levels: 'レベル選択',
+        growth: 'せいちょう記録',
+        settings: 'せってい',
+        bilingual: 'バイリンガルモード',
+        languageName: '日本語',
+        welcome: 'こんにちは、小さな天才！',
+        description: '100のパズルを解いて、お父さんやお母さんを超えちゃおう！',
+        score: 'スコア',
+        rank: 'ランク',
+        back: 'もどる',
+        next: 'つぎへ',
+        parentMode: 'おとなモード',
+        childMode: 'こどもモード',
+    },
+    EN: {
+        title: 'Logic Quest',
+        subtitle: 'Brain Power Studio for Families',
+        start: 'Start Quest',
+        levels: 'Select Level',
+        growth: 'Growth Tracker',
+        settings: 'Settings',
+        bilingual: 'Bilingual Mode',
+        languageName: 'English',
+        welcome: 'Hello, Little Genius!',
+        description: 'Solve 100 puzzles and surpass your parents!',
+        score: 'Score',
+        rank: 'Rank',
+        back: 'Back',
+        next: 'Next',
+        parentMode: 'Parent Mode',
+        childMode: 'Child Mode',
+    }
+};
